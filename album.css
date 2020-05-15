@@ -1,0 +1,59 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+img {
+	width: 700px;
+}
+
+#contenedor {
+	width: 700px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+#contenedor ul {
+	list-style: none;
+	width: 2800px;
+	display: flex;
+
+	animation: slide 20s infinite alternate;
+}
+
+@keyframes slide{
+	0% {margin-left: 0px;}
+	10% {margin-left: 0px;}
+
+	10% {margin-left: -700px;}
+	20% {margin-left: -700px;}
+
+	20% {margin-left: -1400px;}
+	30% {margin-left: -1400px;}
+
+	30% {margin-left: -2100px;}
+	40% {margin-left: -2100px;}
+
+	40% {margin-left: -2800px;}
+	50% {margin-left: -2800px;}
+
+	50% {margin-left: -3500px;}
+	60% {margin-left: -3500px;}
+
+	60% {margin-left: -4200px;}
+	70% {margin-left: -4200px;}
+
+	70% {margin-left: -4900px;}
+	80% {margin-left: -4900px;}
+
+	80% {margin-left: -5600px;}
+	90% {margin-left: -5600px;}
+
+	90% {margin-left: -6300px;}
+	100% {margin-left: -6300px;}
+
+
+
+
+
+}
